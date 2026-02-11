@@ -11,7 +11,7 @@ const ButtonComprar = ({ atg }) => {
   return (
     <button 
       onClick={manejarRenta}
-      className="btn-rentar" // Clase CSS pura
+      className="btn-rentar" 
     >
       {ci === 0 
         ? "Rentar Ahora" 
